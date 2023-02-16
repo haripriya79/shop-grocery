@@ -3,15 +3,16 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         alignItems: 'center',
-        backgroundColor: '#fff'
+        backgroundColor: '#fff',
+        alignContent: 'flex-start'
     },
     upperImage: {
         flex: 1,
         resizeMode: 'cover',
     },
-    text: {
+    welcomeText: {
         textAlign: 'center'
     },
 });

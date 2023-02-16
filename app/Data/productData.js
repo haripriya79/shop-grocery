@@ -1,5 +1,5 @@
 const products = [{
-    id: 1,
+    id: 0,
     category: "Fruits",
     items: [{
         id: "1",
@@ -58,7 +58,7 @@ const products = [{
 
     ]
 }, {
-    id: 2,
+    id: 1,
     category: "Fresh Leaves",
     items: [{
         id: "1",
@@ -89,7 +89,7 @@ const products = [{
     },
     ]
 }, {
-    id: 3,
+    id: 2,
     category: "Vegetables",
     items: [{
         id: "1",

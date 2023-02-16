@@ -23,7 +23,7 @@ export default function Welcome({ navigation }) {
       ></Image>
       <Text
         style={[defaultStyles.textSemiBold, styles.text]}
-      >{`Welcome \nto our store`}</Text>
+      >{`  Welcome \nto our store`}</Text>
       <AppButton title="Get Started" onPress={onPress}></AppButton>
     </View>
   );
