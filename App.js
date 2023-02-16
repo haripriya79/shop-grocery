@@ -19,18 +19,9 @@ export default function App() {
         <Stack.Screen
           name="home"
           component={Home}
-          options={{ title: "Home" }}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

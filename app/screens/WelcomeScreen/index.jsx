@@ -3,7 +3,7 @@ import React from "react";
 import { View, Image, Text } from "react-native";
 import styles from "./styles";
 import defaultStyles from "../../config/styles";
-import AppButton from "../../components/AppButton";
+import { AppButton } from "../../components/AppButton";
 
 export default function Welcome({ navigation }) {
   const onPress = () =>

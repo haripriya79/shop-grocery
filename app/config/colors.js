@@ -17,4 +17,5 @@ export default {
     softBlue: '#4b7bec',
     white: '#fff',
     yellow: '#fed330'
+
 };
