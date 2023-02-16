@@ -6,11 +6,17 @@ import defaultStyles from "../../config/styles";
 import styles from "./styles";
 
 export default function Home({ navigation }) {
+  const onPressSeeAll = (id, name) => {
+    navigation.navigate("categoryList", {
+      id,
+      name,
+    });
+  };
   return (
     <SafeAreaView style={[defaultStyles.AndroidSafeArea, styles.container]}>
       <View style={styles.view}>
         <HomeHeader></HomeHeader>
-        <ListCategory></ListCategory>
+        <ListCategory onPressSeeAll={onPressSeeAll}></ListCategory>
       </View>
     </SafeAreaView>
   );
